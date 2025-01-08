@@ -1,0 +1,79 @@
+:root {
+  --gray-00: #ffffff;
+  --gray-05: #f5f5f5;
+  --gray-06: #d0d0d5;
+  --gray-07: #3b3b4f;
+  --gray-08: #1b1b32;
+  --gray-09: #0a0a23;
+  --blue-10: #198eee;
+  --error: #a94442;
+  --error-01: #8b0606;
+  --error-02: #ffadad;
+}
+
+main {
+  display: grid;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  background-color: var(--gray-08);
+  font-size: 18px;
+  padding-top: 80px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-family: "Castoro Titling", cursive;
+  color: var(--gray-00);
+  max-width: 500px;
+}
+.enter {
+  border: 2px solid var(--gray-00);
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+input {
+  display: block;
+  width: 24.5rem;
+  padding-top: 11px;
+  text-align: left;
+  font-size: 30px;
+  border: 1px solid var(--gray-00);
+  background: var(--gray-09);
+  padding-bottom: 7px;
+  align-self: center;
+  margin: auto;
+  margin-bottom: 30px;
+  color: var(--gray-00);
+}
+p {
+  text-align: center;
+  color: var(--gray-00);
+  font-size: 24px;
+}
+button {
+  font-size: 20px;
+  width: 25rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  cursor: pointer;
+}
+#output {
+  color: white;
+  border: 3px solid var(--gray-05);
+  background-color: var(--gray-07);
+  min-height: 45px;
+  margin-top: 40px;
+  font-size: 1.2rem;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 80;
+}
+.hidden {
+  display: none;
+}
